@@ -1,4 +1,3 @@
-import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -76,8 +75,8 @@ class _SettingPageState extends State<SettingPage> {
             // ListTile(
             //   leading: Icon(Icons.info),
             //   onTap: () async {
-            //     if (await canLaunch("https://t.me/kingsportx")) {
-            //       await launch("https://t.me/kingsportx");
+            //     if (await canLaunch("#")) {
+            //       await launch("#");
             //     }
             //   },
             //   title: Text('Join Telegram', style: TextStyle()),

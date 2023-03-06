@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sportnewsmyanmar/page/profile_widget.dart';
 import 'package:sportnewsmyanmar/page/setting.dart';
 
 class HomePage extends StatefulWidget {
@@ -17,10 +18,7 @@ class _HomePageState extends State<HomePage> {
       'Index 0: Home',
       style: optionStyle,
     ),
-    Text(
-      'Index 1: Business',
-      style: optionStyle,
-    ),
+    ProfileWidget(),
     SettingPage()
   ];
 
@@ -34,7 +32,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('BottomNavigationBar Sample'),
+        title: const Text('Your App Title'),
       ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
@@ -46,8 +44,8 @@ class _HomePageState extends State<HomePage> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.business),
-            label: 'Business',
+            icon: Icon(Icons.info_outline),
+            label: 'Profile',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.school),

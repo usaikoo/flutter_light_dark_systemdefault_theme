@@ -37,13 +37,13 @@ Future main() async {
 }
 
 class MyApp extends StatelessWidget {
-  static const String title = 'Sport News Myanmar';
+  static const String title = 'Light , Dark & System Default';
 
   @override
   Widget build(BuildContext context) => ChangeNotifierProvider(
         create: (context) => ThemeProvider(),
         builder: (context, _) {
-    final themeNotifier = Provider.of<ThemeNotifier>(context);
+          final themeNotifier = Provider.of<ThemeNotifier>(context);
 
           return MaterialApp(
             title: title,
