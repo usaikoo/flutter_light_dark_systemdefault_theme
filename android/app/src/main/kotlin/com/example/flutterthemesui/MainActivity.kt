@@ -1,4 +1,4 @@
-package com.example.sportnewsmyanmar
+package com.example.flutterthemesui
 
 import io.flutter.embedding.android.FlutterActivity
 

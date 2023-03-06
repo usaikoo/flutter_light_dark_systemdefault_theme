@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sportnewsmyanmar/page/home_page.dart';
-import 'package:sportnewsmyanmar/provider/theme_provider.dart';
-import 'package:sportnewsmyanmar/page/setting.dart';
-import 'package:sportnewsmyanmar/utils/constant.dart';
-import 'package:sportnewsmyanmar/utils/themenotifier.dart';
+import 'package:themesflutter/page/home_page.dart';
+import 'package:themesflutter/provider/theme_provider.dart';
+import 'package:themesflutter/page/setting.dart';
+import 'package:themesflutter/utils/constant.dart';
+import 'package:themesflutter/utils/themenotifier.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();

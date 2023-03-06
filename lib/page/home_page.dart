@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sportnewsmyanmar/page/profile_widget.dart';
-import 'package:sportnewsmyanmar/page/setting.dart';
+import 'package:themesflutter/page/profile_widget.dart';
+import 'package:themesflutter/page/setting.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

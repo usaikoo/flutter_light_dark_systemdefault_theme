@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:sportnewsmyanmar/utils/constant.dart';
-import 'package:sportnewsmyanmar/utils/themenotifier.dart';
+import 'package:themesflutter/utils/constant.dart';
+import 'package:themesflutter/utils/themenotifier.dart';
 
 enum Availability { loading, available, unavailable }
 
